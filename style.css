@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+.container h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #eaeedae7;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10vh;
+    gap: 20px;
+}
+.box{
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    width: 100px;
+border-radius: 5px;
+    height: 100px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+

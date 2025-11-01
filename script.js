@@ -24,15 +24,17 @@ const yellow = document.getElementById('Yellow');
 //}
 function greetUser() {
   const name = document.getElementById('name').value;
-  if(length(name)>0){
+  if((name.length)>0){
 
       document.getElementById('greet').innerText = "Hello " + name + "!";
     }
     else{
       document.getElementById('greet').innerText = "Hello " ;
 
-  }
+    }
+    console.log(name);
 }
+
 red.addEventListener('click', ()=>
     {
     red.style.backgroundColor = "red";

@@ -24,7 +24,14 @@ const yellow = document.getElementById('Yellow');
 //}
 function greetUser() {
   const name = document.getElementById('name').value;
-  document.getElementById('greet').innerText = "Hello " + name + "!";
+  if(length(name)>0){
+
+      document.getElementById('greet').innerText = "Hello " + name + "!";
+    }
+    else{
+      document.getElementById('greet').innerText = "Hello " ;
+
+  }
 }
 red.addEventListener('click', ()=>
     {
